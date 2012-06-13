@@ -3,6 +3,16 @@ cs224
 
 This was a project for cs224 Project 7 polymorphism ALU
 
+==== NEW THING DONE ===
+
+A few days after the project presentation, I was curious to see what could be done to speed implementation of ALU Polymorphism project.
+
+It seems that using an indexer is a great answer to the project.
+If I had time, I would do the following: 
+
+Theoretically, the search for the ALU polymorphism can be instantaneous (using an inverted index "KeywordAnalyzer" e.g. Hashmap.get function) by employing Lucene indexing. I would have Lucene index every 30bp letters to be indexed. In addition, assuming there is a 1% error chance, Lucene allows a couple error sensitivity by using: "fuzzy search" for a relatively cheap and quick find.
+
+
 =====
 
 List of all the classes:
